@@ -1,2 +1,8 @@
 .Rproj.user
-github_data/
+github_data/*
+!github_data/repository_files/
+!github_data/repository_files/**.DS_Store
+github_data/repository_files/brt_training_data/pseudo_abcence_strategies/Rasters/
+.DS_Store
+*.rds
+*.tif
