@@ -33,5 +33,5 @@ All available code is written in R (v4.4.1 or higher) using Rstudio (2024.04.2+7
 | `brt_training_data/` | Training datasets containing presence records and sampled pseudo-absences linked to selected environmental predictors; includes 100 CSV files used to train independent BRT replicates | Stores model training inputs |
 | `brt_training_data/pseudo_absence_strategies/` | Pseudo-absence sampling script together with datasets generated for each pseudo-absence strategy and sampling ratio | Stores pseudo-absence workflow and sensitivity analyses |
 | `environmental_data/` | CSV files containing environmental predictor values for each European NUTS3 region across current, historical, and future periods | Stores environmental covariates used in modelling |
-| `Europe_NUTS3_shapefile/` | Optimised European administrative boundary shapefiles | Provides spatial boundaries for analyses and mapping |
+| `europe_shapefile/` | Optimised European administrative boundary shapefiles | Provides spatial boundaries for analyses and mapping |
 | `occurrence_data/` | CSV files containing viral occurrence records and aggregated presence datasets used for BRT training | Stores occurrence inputs for the model |
