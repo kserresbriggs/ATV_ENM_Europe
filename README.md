@@ -3,9 +3,12 @@
 This repo gathers the input files and scripts related to our study entitled "**Increasing numbers of people living in European areas ecologically suitable for local circulation of <i>Aedes</i> mosquito-borne viruses **" (*submitted*). R scripts used to conduct the ecological niche modelling analyses described in this study are all available in `Script_ATV_ENM_Europe.r`.
 
 **Background:** Climate change has multiple public health impacts, including the expansion of the geographical range of vector-borne diseases. Pathogens such as dengue, chikungunya and Zika viruses, transmitted by Aedes mosquitoes, can cause severe health outcomes ranging from acute febrile illness, chronic joint pain, to birth defects and even death. Evaluating the human population that could potentially be exposed is therefore crucial as large outbreaks could overwhelm healthcare systems. Europe, one of the fastest warming regions globally, harbours the competent mosquito vector Aedes albopictus in over 20 countries, making Aedes-borne viruses an increasing threat to the continent, which has already experienced local outbreaks over the past two decades. 
+
 **Methods:** Here we use an ecological niche modelling approach to investigate the past, present, and future evolution of ecologically suitable areas for the local circulation of Aedes-borne viruses in Europe. 
 Findings: Our results show that recent climate change has already increased these ecologically suitable areas, particularly across the Mediterranean basin, which is a current hotspot for local outbreaks. Major metropolitan areas in Spain, France, Italy, and Croatia are now located in ecologically suitable areas, which are projected to expand northward by mid-century. Under a high greenhouse gas emissions scenario, the European areas ecologically suitable for Aedes-borne virus circulation could potentially increase by more than a quarter by the end of the century, with ~70 million additional people living in ecologically suitable areas.
+
 **Interpretation:** These findings underscore the urgent need for strengthened vector and epidemiological surveillance, as well as preparedness strategies across newly suitable regions to anticipate future public health threats associated with these arboviral diseases.
+
 **Funding:** Fonds National de la Recherche Scientifique (F.R.S.-FNRS, Belgium); Fonds voor Wetenschappelijk Onderzoek (FWO, Belgium); VUB Research Council EUTOPIA inter-university; ERC Consolidator Grant LACRIMA; European Horizon projects MOOD, COMPASS, and LEAPS.
 
 
@@ -42,13 +45,13 @@ All available code is written in R (v4.4.1 or higher) using Rstudio (2024.04.2+7
 | `occurrence_data/` | CSV files containing viral occurrence records and aggregated presence datasets used for BRT training | Stores occurrence inputs for the model |
 
 ### Data availability ###
-(1) occurrence data: The occurrence data used in this study has has been obtained from:
+(1) Occurrence data: the occurrence data used in this study has has been obtained from:
 - ECDC surveillance platform: https://atlas.ecdc.europa.eu/public/
 - Santé Publique France: https://odisse.santepubliquefrance.fr/page/accueil/
 - Literature: https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762(25)00023-7/fulltext
 - Padi-Web: https://padi-web.cirad.fr/en/
   
-(2) Environmental data: The raster files are not included in the GitHub repo because of their size. To download the original raster files please visit:
+(2) Environmental data: the raster files are not included in the GitHub repo because of their size. To download the original raster files please visit:
 - climate/population data -> https://data.isimip.org/
 - land-use data -> https://luh.umd.edu/data.shtml
 
